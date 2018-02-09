@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: gray;
+  background-image: url(https://freenaturestock.s3.amazonaws.com/1098.jpg);
+  background-size: cover;
+}
+
+div.container {
+  background-color: rgba(52, 58, 64, .7);
+}
+
+div#contentContainer span {
+  font-size: xx-large;
+}
+
+a:focus, a:hover, a:visited, a:link {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div#weather {
+  opacity: 0;
+}
+
+div#city {
+  opacity: 0;
+}
+
+span#units {
+  cursor: pointer;
+}
